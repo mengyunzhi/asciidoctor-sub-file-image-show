@@ -1,0 +1,23 @@
+:path: sub2/
+:imagesdir: assets2/
+
+ifdef::rootpath[]
+:currentpath: {rootpath}{path}
+:imagesdir: {currentpath}{imagesdir}
+endif::rootpath[]
+
+ifndef::rootpath[]
+:rootpath: ./../
+endif::rootpath[]
+
+图片测试
+
+image::e75b18b9.png[列表页]
+
+
+图片测试
+
+image::e75b18b9.png[列表页]
+
+== 子文件夹21
+include::sub21/readme.adoc[]

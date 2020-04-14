@@ -1,0 +1,15 @@
+:path: sub1/sub11/
+:imagesdir: assets11/
+
+ifdef::rootpath[]
+:currentpath: {rootpath}{path}
+:imagesdir: {currentpath}{imagesdir}
+endif::rootpath[]
+
+ifndef::rootpath[]
+:rootpath: ./../../
+endif::rootpath[]
+
+图片测试
+
+image::e75b18b9.png[列表页]

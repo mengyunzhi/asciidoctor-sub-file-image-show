@@ -1,0 +1,11 @@
+:rootpath: ./
+
+= 子文件夹1
+include::sub1/readme.adoc[]
+
+== 子文件夹11
+include::sub1/sub11/readme.adoc[]
+
+= 子文件夹2
+include::sub2/readme.adoc[]
+

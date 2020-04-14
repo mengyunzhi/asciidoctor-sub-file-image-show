@@ -1,5 +1,9 @@
 :rootpath: ./
 
+asciidoc文档包含子文件时图片无法显示的一种解决方案
+
+https://segmentfault.com/a/1190000022372547
+
 = 子文件夹1
 include::sub1/readme.adoc[]
 

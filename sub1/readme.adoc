@@ -2,8 +2,7 @@
 :imagesdir: assets1/
 
 ifdef::rootpath[]
-:currentpath: {rootpath}{path}
-:imagesdir: {currentpath}{imagesdir}
+:imagesdir: {rootpath}{path}{imagesdir}
 endif::rootpath[]
 
 ifndef::rootpath[]
